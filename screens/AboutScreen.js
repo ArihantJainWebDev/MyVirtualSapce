@@ -37,13 +37,20 @@ export default function AboutScreen() {
         />
         <Text style={styles.bio}>
           Hello! I’m Arihant Jain, a dedicated undergraduate in Computer Science and AI at Medi-Caps University in Indore. My passion lies in developing interactive web applications, exploring emerging technologies, and continuously learning to enhance my skills as a software engineer.
-
+        </Text>
+        <Text style={styles.bio}>
           I have a solid foundation in HTML, CSS, JavaScript, and React.js, and I am expanding my expertise in Node.js, Express.js, MySQL, MongoDB, FastAPI, and Flask. I take pleasure in transforming ideas into real, functional, and visually appealing projects. My portfolio showcases my journey with hands-on projects, including a Gemini AI clone, a car rental interface, and a full-stack notes application.
+        </Text>
 
+        <Text style={styles.bio}>
           Currently, I am honing my skills in Java and Data Structures & Algorithms to prepare for opportunities at leading product-based companies such as Google and Microsoft. I am also deeply interested in creating solutions that address real-world challenges and make a positive impact.
+        </Text>
 
+        <Text style={styles.bio}>
           Outside of coding, I enjoy refining my communication skills and working on side projects that blend enjoyment with practicality.
+        </Text>
 
+        <Text style={styles.bio}>
           Let’s connect and collaborate to create something extraordinary together!
         </Text>
       </View>
@@ -109,30 +116,32 @@ const styles = StyleSheet.create({
     color: '#FFD93D',
   },
   bio: {
-    fontSize: 16,
-    color: '#ccc',
+    fontSize: 18,
+    color: '#AABBCC',
+    lineHeight: 25,
     textAlign: 'center',
-    marginVertical: 10,
+    marginVertical: 12,
   },
   skillSection: {
     marginBottom: 30,
     paddingHorizontal: 20,
   },
   sectionTitle: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: 'bold',
     color: '#FFD93D',
     marginBottom: 10,
   },
   skill: {
-    backgroundColor: '#FF3131',
+    backgroundColor: '#271A1A',
+    borderColor: '#FFD93D',
+    borderWidth: 1,
     color: '#fff',
     paddingVertical: 8,
     paddingHorizontal: 16,
     borderRadius: 20,
     fontWeight: 'bold',
     marginRight: 10,
-    width: 100,
     textAlign: 'center',
   },
   socials: {
