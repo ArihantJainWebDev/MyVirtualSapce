@@ -7,6 +7,7 @@ import GoalsScreen from './screens/GoalsScreen';
 import ProjectsScreen from './screens/ProjectsScreen';
 import NotesScreen from './screens/NotesScreen';
 import NoteDetailScreen from './screens/NoteDetailScreen';
+import FunZoneScreen from './screens/FunZoneScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,6 +21,7 @@ export default function App() {
         <Stack.Screen name="Projects" component={ProjectsScreen} />
         <Stack.Screen name="Notes" component={NotesScreen} />
         <Stack.Screen name="NoteDetail" component={NoteDetailScreen} />
+        <Stack.Screen name="FunZone" component={FunZoneScreen} />
         {/* Add more screens later */}
       </Stack.Navigator>
     </NavigationContainer>
